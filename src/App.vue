@@ -1,7 +1,17 @@
 <template>
-  <Imagemin />
+  <RouterView />
 </template>
 
 <script setup lang="ts">
-import Imagemin from "./components/Imagemin/index.vue";
+import { RouterView } from "vue-router";
 </script>
+
+<style lang="scss">
+* {
+  list-style: none !important;
+}
+
+body {
+  min-width: 700px;
+}
+</style>
