@@ -1,4 +1,5 @@
 <template>
+  <h3>vite图片压缩插件</h3>
   <code>
     <pre>
 执行npm run build，对比打包前图片尺寸与打包后图片尺寸。

@@ -10,12 +10,17 @@
   },
   "dependencies": {
     "ant-design-vue": "^4.0.0",
+    "codemirror": "^5.65.14",
+    "codemirror-editor-vue3": "^2.3.0",
     "sass": "^1.63.6",
     "sass-loader": "^13.3.2",
+    "vite-plugin-vue-inspector": "^3.4.2",
     "vue": "^3.3.4",
+    "vue-progressive-image": "^4.0.0-beta.10",
     "vue-router": "^4.2.4"
   },
   "devDependencies": {
+    "@types/codemirror": "^5.60.8",
     "@vitejs/plugin-vue": "^4.2.3",
     "typescript": "^5.0.2",
     "vite": "^4.4.0",

@@ -7,6 +7,12 @@
       }}</a-button>
     </li>
   </ul>
+
+  <ProgressiveImage
+    placeholder-src="https://picsum.photos/id/1080/19/10"
+    src="https://picsum.photos/id/1080/1980/1080"
+    importance="high"
+  />
 </template>
 
 <script setup lang="ts">
@@ -14,3 +20,11 @@ import { useRouter } from "vue-router";
 import { FEATURE_LIST } from "../../constants/index";
 const router = useRouter();
 </script>
+
+<style lang="scss" scoped>
+ul {
+  li {
+    margin: 20px 0;
+  }
+}
+</style>
